@@ -18,4 +18,5 @@ function saude(imc){
         return'Obesidade 2'
     if(imc>=40)
     return'Obsidade grave'
+    
 }
