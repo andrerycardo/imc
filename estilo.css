@@ -22,11 +22,14 @@ h1{
 h2{
     color: #002609;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
 }
 #pp{
-    color:#267F3B   ;
+    color:#002609 ;
     height: 20px;
+    font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
     
 
 }
@@ -56,6 +59,7 @@ input{
     
     
 }
+
 ::placeholder{
     color: #267F3B;
     padding-left: 5px;
@@ -78,6 +82,38 @@ button:hover{
 img{
     height: 500px;
     position: fixed;
+    
+    bottom: 50px;
     left: 300px;
     
+}
+@media (max-width:1323px){
+    img{
+        left: 0px;
+    }
+  
+}
+@media (max-width:945px){
+    img{
+        display: none;
+
+    }
+    main{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+@media(max-width:550px){
+    h1{
+        font-size: 40px;
+        text-align: center;
+        padding-left: 10px;
+    }
+}
+@media(max-width:409px){
+     h1{
+        font-size: 38px;
+     }
 }
